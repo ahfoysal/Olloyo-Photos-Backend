@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\.545c4b5091e4262c12d825ac66029999d69230bf-audit.json",
+    "files": [
+        {
+            "date": 1698746119701,
+            "name": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\phu-2023-31-10-15-error.log",
+            "hash": "937da41d6367e5f68c30aeaead9c701731b6b7b6b70f6a59c144d2c0b8438925"
+        },
+        {
+            "date": 1698746851078,
+            "name": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\phu-2023-31-10-16-error.log",
+            "hash": "c473db26f60de90bb7877dcd46618fecae616b10ea3129b90ac9caf6bb7c57ff"
+        },
+        {
+            "date": 1698758115651,
+            "name": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\phu-2023-31-10-19-error.log",
+            "hash": "26ce56b28a5c5211be248eb90ef04f711ed601f5d197d3ac8f4a77b5a55b490b"
+        },
+        {
+            "date": 1698769167224,
+            "name": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\phu-2023-31-10-22-error.log",
+            "hash": "ae2c2ddf5ad36992a88b2f55f604f762b5a42fcee1d81c53d29b6d7c494824de"
+        },
+        {
+            "date": 1698777277095,
+            "name": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\phu-2023-01-11-00-error.log",
+            "hash": "409c2c97c9361c0b38ff110dc16ab7ea6ce284b90cb3b38b8f7cac40485c363d"
+        },
+        {
+            "date": 1698779053056,
+            "name": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\phu-2023-01-11-01-error.log",
+            "hash": "4cad40410f7b93be50107e6d862a142883be22be7ed82c350d53825add3bb409"
+        },
+        {
+            "date": 1698784708082,
+            "name": "D:\\FullStack\\photos\\Backend\\logs\\winston\\errors\\phu-2023-01-11-02-error.log",
+            "hash": "399f1732b126a3e7f9d1b3e1e021d4730a83279ad81d22027bf2807541021d5b"
+        }
+    ],
+    "hashType": "sha256"
+}
