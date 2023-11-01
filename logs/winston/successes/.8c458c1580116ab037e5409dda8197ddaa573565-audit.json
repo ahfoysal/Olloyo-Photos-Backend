@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\FullStack\\photos\\Olloyophotos-Backend\\logs\\winston\\successes\\.8c458c1580116ab037e5409dda8197ddaa573565-audit.json",
+    "files": [
+        {
+            "date": 1698789945074,
+            "name": "D:\\FullStack\\photos\\Olloyophotos-Backend\\logs\\winston\\successes\\phu-2023-01-11-04-success.log",
+            "hash": "147951267faa5361e96fc85277c4a19bcc5c0dfca8e33e7dea3e55217b926c4f"
+        },
+        {
+            "date": 1698818618718,
+            "name": "D:\\FullStack\\photos\\Olloyophotos-Backend\\logs\\winston\\successes\\phu-2023-01-11-12-success.log",
+            "hash": "e9d47c2dc62063d57d70080aa67fcced2f203c66e036723585db17f043fcc323"
+        }
+    ],
+    "hashType": "sha256"
+}
