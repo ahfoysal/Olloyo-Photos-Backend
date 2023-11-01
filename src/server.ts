@@ -1,7 +1,6 @@
 /* eslint-disable no-console */
 import { Server } from 'http';
 import mongoose from 'mongoose';
-import { Console, splash } from 'stack-console';
 import app from './app';
 import config from './config/index';
 import { errorlogger } from './shared/logger';
@@ -16,11 +15,12 @@ let server: Server;
 async function bootstrap() {
   try {
     server = app.listen(config.port, () => {
-      splash.message(config.port as string);
+      // splash.message(config.port as string);
+      console.log('Server listening on port ' + config.port);
     });
 
     await mongoose.connect(config.database_url as string);
-    Console.log(`🛢   Database is connected successfully`);
+    console.log(`🛢   Database is connected successfully`);
   } catch (err) {
     errorlogger.error('Failed to connect database', err);
   }
