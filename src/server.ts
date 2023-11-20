@@ -3,10 +3,9 @@ import { Server } from 'http';
 import mongoose from 'mongoose';
 import app from './app';
 import config from './config/index';
-import { errorlogger } from './shared/logger';
 
 process.on('uncaughtException', error => {
-  errorlogger.error(error);
+  console.error(error);
   process.exit(1);
 });
 
@@ -22,13 +21,15 @@ async function bootstrap() {
     await mongoose.connect(config.database_url as string);
     console.log(`🛢   Database is connected successfully`);
   } catch (err) {
-    errorlogger.error('Failed to connect database', err);
+    // errorlogger.error('Failed to connect database', err);
+    console.log('failed to connect to database', err);
   }
 
   process.on('unhandledRejection', error => {
     if (server) {
       server.close(() => {
-        errorlogger.error(error);
+        // errorlogger.error(error);
+        console.log(error);
         process.exit(1);
       });
     } else {
