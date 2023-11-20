@@ -6,14 +6,9 @@
     "auditLog": "D:\\FullStack\\photos\\Olloyophotos-Backend\\logs\\winston\\errors\\.db4d92ef0c78d91b5822f5e767c3db9a48b64dac-audit.json",
     "files": [
         {
-            "date": 1698789945078,
-            "name": "D:\\FullStack\\photos\\Olloyophotos-Backend\\logs\\winston\\errors\\phu-2023-01-11-04-error.log",
-            "hash": "ef4f0ee8df871fbba3a6551de0b6f5527d6b3d69ad9202ee6715fd4e94656df2"
-        },
-        {
-            "date": 1698818618723,
-            "name": "D:\\FullStack\\photos\\Olloyophotos-Backend\\logs\\winston\\errors\\phu-2023-01-11-12-error.log",
-            "hash": "262ae3abffcdad7d13ababe6333f8f3f8594184df27dc3262753b6a5c59ddde5"
+            "date": 1700481758745,
+            "name": "D:\\FullStack\\photos\\Olloyophotos-Backend\\logs\\winston\\errors\\phu-2023-20-11-18-error.log",
+            "hash": "6dd708a9f20c7a5441823d13a7d7645fa5a1a0aeb04f819733d10c5947a80cc6"
         }
     ],
     "hashType": "sha256"
